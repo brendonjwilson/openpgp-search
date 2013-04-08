@@ -1,0 +1,29 @@
+{
+	"name": "__MSG_name__",
+	
+	"version": "0.1",
+	
+	"manifest_version": 2,
+	
+	"description": "__MSG_description__",
+	
+	"icons": { "16": "/images/appIcon16.png",
+	           "48": "/images/appIcon48.png",
+	          "128": "/images/appIcon128.png" },
+	
+	"default_locale": "en",
+
+	"browser_action": {
+		"default_icon": {
+			"19": "/images/appIcon19.png",
+			"28": "/images/appIcon28.png",
+			"128": "/images/appIcon128.png"
+		},
+		"default_title": "__MSG_default_title__",
+		"default_popup": "/html/search.html"
+	},
+	
+	"homepage_url": "http://www.brendonwilson.com/projects/pgp-global-directory-opensearch-plugin/",
+	
+	"options_page": "/html/options.html"
+}

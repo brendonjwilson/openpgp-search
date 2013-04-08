@@ -1,0 +1,27 @@
+#options > #wrapper {
+	font-family: sans-serif;
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#search body {
+	margin: 2px 0px 0px 0px;
+}
+
+#search form {
+	background-position: top right;
+	background-repeat: no-repeat;
+	margin: 0px 2px 0px 0px;
+}
+
+#search input.search {
+	color: #333;
+	font-size: 10pt;
+	padding: 2px 25px 4px 32px;
+	margin: 0px 0px 0px 0px;
+	width: 237px;
+	outline: none;
+	border: none;
+	background: url(../images/searchInputBackground.png) top left no-repeat;
+}

@@ -1,0 +1,21 @@
+{
+	"name": {
+		"message": "PGP Global Directory Search",
+		"description": "The name of the Chrome extension"
+	},
+	
+	"description": {
+		"message": "Recherchez OpenPGP keys sur le PGP Global Directory",
+		"description": "The description of the Chrome extension"
+	},
+	
+	"default_title": {
+		"message": "Recherchez PGP Global Directory",
+		"description": "The default title for the Chrome extension"
+	},
+	
+	"search_criteria": {
+		"message": "Nom, adresse e-mail, ou key ID",
+		"description": "The hint text for the extension's search input"
+	}
+}
