@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Install the PGP Global Directory Search OpenSearch Plugin</title>
+		<link rel="shortcut icon" href="pgp-global-directory-opensearch.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" title="PGP Global Directory Search" href="http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.xml">
+		<script>
+			<!--
+			function addEngine()
+			{
+				if ((typeof window.sidebar == "object") && (typeof window.sidebar.addSearchEngine == "function"))
+				{
+					window.sidebar.addSearchEngine("http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.xml", "http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.png", "PGP Global Directory Search", "");
+				}
+				else if (typeof window.external.AddSearchProvider == "function")
+				{
+					window.external.AddSearchProvider("http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.xml");
+				}
+				else
+				{
+					alert("Netscape 6, Mozilla Firefox 2.0, or Internet Explorer 7.0 is needed to install a search plugin");
+				}
+			}
+			// ->
+		</script>
+	</head>
+
+	<body>
+		<h1>Installing the PGP Global Directory Search Plugin</h1>
+		<p>This is a simple OpenSearch plugin for PGP Global Directory that allows the user to perform PGP Global Directory Searches directly from the Firefox search box.</p>
+		<p>To install this search plugin:</p>
+		<ol>
+			<li>Be sure that you're running Mozilla Firefox 20 or later.</li>
+			<li>Edit this HTML file and alter the <code>www.brendonwilson.com</code> links with the location where you will be deploying the XML, PNG, and ICO files.</li>
+			<li>Place this HTML file and the associated XML, PNG, and ICO files on a public web site - <em>you cannot install this plugin from a local folder!</em>.</li>
+			<li>Load this HTML file from the public web site.</li>
+			<li>Click <a href="#" onClick="addEngine(); return false;">this link</a> and agree to load the search engine./</li>
+		</ol>
+		<p>Alternatively, you can copy the <code>pgp-global-directory-opensearch.xml</code> file into your Firefox profile directory's <code>searchplugins</code> subdirectory.</p>
+	</body>
+</html>

@@ -9,8 +9,8 @@ For users of encryption software from <a href="http://www.pgp.com">PGP Corporati
 Although the PGP Global Directory features a web-based interface, I thought it might be useful to be able to perform a quick lookup directly from my web-browser. Modern web-browsers, such as Mozilla Firefox and Internet Explorer, support <a href="http://www.opensearch.org">OpenSearch</a>, a mechanism that allows (among other things) the development of plugins that can perform searches from within the browser. For Google Chrome, a simple extension provides similar functionality, albeit not directly integrated with the main location bar / search input.
 
 # Requirements
-* <a href="http://www.google.com/chrome/">Google Chrome</a>: Version 25 or later (haven't tested with earlier versions.
-* <a href="http://www.mozilla.org/firefox/">Mozilla Firefox</a>: Version TBD
+* <a href="http://www.google.com/chrome/">Google Chrome</a>: Version 25 or later (haven't tested with earlier versions)
+* <a href="http://www.mozilla.org/firefox/">Mozilla Firefox</a>: Version 20 or later (haven't tested with earlier versions)
 * <a href="http://www.microsoft.com/ie/">Internet Explorer</a>: Version TBD
 
 # Installation
@@ -37,7 +37,7 @@ The packed extension will be loaded into Google Chrome.
 
 ## Mozilla Firefox OpenSearch Plugin
 
-Instructions coming soon. Need to test compatibility; also, they have a somewhat funky installation process.
+You could download and unzip the project, modify src/firefox/install.html per the instructions in that file. Or you could just <a href="http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/install.html">go here</a> and click the installation link.
 
 ## Internet Explorer OpenSearch Plugin
 
