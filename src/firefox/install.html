@@ -11,7 +11,7 @@
 				{
 					window.sidebar.addSearchEngine("http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.xml", "http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.png", "PGP Global Directory Search", "");
 				}
-				else if (typeof window.external.AddSearchProvider == "function")
+				else if (typeof window.external.AddSearchProvider !== "undefined")
 				{
 					window.external.AddSearchProvider("http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/pgp-global-directory-opensearch.xml");
 				}

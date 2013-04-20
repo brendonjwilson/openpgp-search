@@ -11,7 +11,6 @@ Although the PGP Global Directory features a web-based interface, I thought it m
 # Requirements
 * <a href="http://www.google.com/chrome/">Google Chrome</a>: Version 25 or later (haven't tested with earlier versions)
 * <a href="http://www.mozilla.org/firefox/">Mozilla Firefox</a>: Version 20 or later (haven't tested with earlier versions)
-* <a href="http://www.microsoft.com/ie/">Internet Explorer</a>: Version TBD
 
 # Installation
 ## Google Chrome Extension
@@ -39,13 +38,25 @@ The packed extension will be loaded into Google Chrome.
 
 You could download and unzip the project, modify src/firefox/install.html per the instructions in that file. Or you could just <a href="http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/install.html">go here</a> and click the installation link.
 
-## Internet Explorer OpenSearch Plugin
+## Microsoft Internet Explorer OpenSearch Plugin
 
-Instructions coming soon. Need to test compatibility with new versions of Internet Explorer.
+While Internet Explorer claims to support OpenSearch, it doesn't appear to correctly support the use of HTTP POST to perform searches. Unfortunately, the PGP Global Directory strictly uses HTTP POST, and hence it's not possible to create an IE-compatible OpenSearch plugin that works with the PGP Global Directory. You *could* add the plugin using the Mozilla Firefox instructions specified above. However, searches will never get submitted and you will only ever be presented with the default PGP Global Directory home page. 
 
 # Potential Future Improvements
 
 * Configurability to search one or more standard PGP keyservers
+
+# License
+
+This software is provided under a BSD license. A copy of the source code is available <a href="https://github.com/brendonjwilson/openpgp-search">here</a>. A copy of the license file can be found in the `licenses` directory.
+
+# Credits
+
+Icons that appear in this software include the following:
+
+* Key icon by Roger Cook & Don Shanosky published under a Public Domain Mark (<a href="http://thenounproject.com/noun/key/#icon-No655">Source</a>)
+* Magnifying Glass icon by Philipp Süß under a Creative Commons CC0 license (<a href="http://thenounproject.com/noun/magnifying-glass/#icon-No907">Source</a>)
+* Arror icon by Mihir Deshpande under a Creative Commons - Attribution (CC BY 3.0) license (<a href="http://thenounproject.com/noun/arrow/#icon-No3322">Source</a>)
 
 # For More Information
 For more information about OpenPGP, see <a href="http://tools.ietf.org/html/rfc4880">IETF RFC 4880</a>.
