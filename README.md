@@ -36,11 +36,13 @@ The packed extension will be loaded into Google Chrome.
 
 ## Mozilla Firefox OpenSearch Plugin
 
-You could download and unzip the project, modify src/firefox/install.html per the instructions in that file. Or you could just <a href="http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/install.html">go here</a> and click the installation link.
+You could download and unzip the project, modify `src/firefox/install.html` per the instructions in that file. Or you could just <a href="http://www.brendonwilson.com/wp-content/uploads/projects/pgp-global-directory-opensearch-plugin/install.html">go here</a> and click the installation link.
 
 ## Microsoft Internet Explorer OpenSearch Plugin
 
-While Internet Explorer claims to support OpenSearch, it doesn't appear to correctly support the use of HTTP POST to perform searches. Unfortunately, the PGP Global Directory strictly uses HTTP POST, and hence it's not possible to create an IE-compatible OpenSearch plugin that works with the PGP Global Directory. You *could* add the plugin using the Mozilla Firefox instructions specified above. However, searches will never get submitted and you will only ever be presented with the default PGP Global Directory home page. 
+While Internet Explorer claims to support OpenSearch, it doesn't appear to correctly support the use of HTTP POST to perform searches. Unfortunately, the PGP Global Directory strictly uses HTTP POST, and hence it's not possible to create an IE-compatible OpenSearch plugin that works with the PGP Global Directory.
+
+You *could* add the plugin using the Mozilla Firefox instructions specified above. However, searches will never get submitted and you will only ever be presented with the default PGP Global Directory home page. 
 
 # Potential Future Improvements
 
